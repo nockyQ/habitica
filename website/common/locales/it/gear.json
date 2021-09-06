@@ -2413,7 +2413,7 @@
     "weaponSpecialSummer2021HealerText": "Bastone di Grano",
     "weaponSpecialSummer2021MageNotes": "Sia che le tue ambizioni magiche siano profonde ventimila leghe, sia che tu abbia intenzione di immergerti solo in acque poco profonde, questo strumento splendente ti servirà ai tuoi scopi! Aumenta l'intelligenza di <%= int %> e la percezione di <%= per %>. Edizione limitata Estate 2021.",
     "weaponSpecialSummer2021MageText": "Canna Nautiloide",
-    "headSpecialSummer2021HealerNotes": "Edizione limitata Estate 2021.",
+    "headSpecialSummer2021HealerNotes": "Prendi in prestiti le piume di un pappagallo per aiutarti nelle tue battaglie giornaliere! Aumenta l'intelligenza di <%=int %>. Edizione limitata estate 2021.",
     "armorArmoireBathtubText": "Vasca da bagno",
     "weaponArmoireBuoyantBubblesNotes": "Queste bollicine sembrano che continuano a galleggiare per sempre, in qualche modo... Aumenta la Percezione di <%= per %>. Scrigno incantato: Set di Bolle da Bagno (Articolo 3 di 4).",
     "shieldArmoireBouncyBubblesNotes": "Completa il tuo bagno rilassante con queste bolle lussuriose! Aumenta la Forza di <%= str %>. Scrigno Incantato: Set delle bolle da bagno (Articolo 4 di 4).",
@@ -2425,5 +2425,11 @@
     "eyewearMystery202108Text": "Occhi Ardenti",
     "headMystery202108Text": "Capelli Shounen Ardenti",
     "eyewearMystery202108Notes": "Fissa i tuoi nemici (o le tue attività più grandi!) e non avranno alcuna possibilità. Non da alcun benefictio. Oggetto per Abbonati Agosto 2021. ",
-    "headMystery202108Notes": "Stai proprio bene! Non da alcun beneficio. Oggetto per Abbonati Agosto 2021. "
+    "headMystery202108Notes": "Stai proprio bene! Non da alcun beneficio. Oggetto per Abbonati Agosto 2021. ",
+    "shieldArmoireBagpipesNotes": "I rudi potrebbero dire che vuoi risvegliare i morti con questa cornamusa, ma tu lo sai che stai solo motivando la tua squadra al successo! Aumenta la Forza di <%= str %>. Scrigno Incantato: Set del Suonatore di Cornamusa (Oggetto 3 di 3).",
+    "shieldArmoireBagpipesText": "Cornamusa",
+    "headArmoireGlengarryNotes": "Un copricapo tradizionale colpo di orgoglio e storia. Aumenta l'Intelligenza di <%= int %>. Scrigno Incantato: Set del Suonatore di Cornamusa (Oggetto 1 di 3).",
+    "headArmoireGlengarryText": "Berretto scozzese",
+    "armorArmoireBagpipersKiltNotes": "Un buon kilt resistente che ti servirà bene. Aumenta la Costituzione di <%= con %>. Scrigo Incantato: Set del Suonatore di Cornamusa (Oggetto 2 di 3).",
+    "armorArmoireBagpipersKiltText": "Kilt del Suonatore di Cornamusa"
 }

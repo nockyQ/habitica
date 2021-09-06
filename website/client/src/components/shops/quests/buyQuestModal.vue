@@ -17,7 +17,7 @@
       <close-icon @click="hideDialog()" />
     </div>
     <h2 class="text-center textCondensed">
-      {{$t('questDetailsTitle') }}
+      {{ $t('questDetailsTitle') }}
     </h2>
     <div
       v-if="item != null"
@@ -45,6 +45,7 @@
           <div class="box">
             <input
               v-model.number="selectedAmountToBuy"
+              class="form-control"
               type="number"
               min="0"
               step="1"
@@ -82,7 +83,7 @@
     </div>
     <countdown-banner
       v-if="item.event"
-      :endDate="endDate"
+      :end-date="endDate"
     />
     <div
       slot="modal-footer"
@@ -158,28 +159,6 @@
       vertical-align: middle;
     }
 
-    .value {
-      width: 28px;
-      height: 32px;
-      font-family: Roboto;
-      font-size: 24px;
-      font-weight: bold;
-      line-height: 1.33;
-      vertical-align: middle;
-
-      &.gems {
-        color: $green-10;
-      }
-
-      &.gold {
-        color: $yellow-10;
-      }
-
-      &.hourglasses {
-        color: $hourglass-color;
-      }
-    }
-
     button.btn.btn-primary {
       margin-top: 24px;
       margin-bottom: 24px;
@@ -253,6 +232,32 @@
           display: flex;
         }
       }
+    }
+  }
+</style>
+
+<style lang="scss" scoped>
+  @import '~@/assets/scss/colors.scss';
+
+  .value {
+    width: 28px;
+    height: 32px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.33;
+    vertical-align: middle;
+
+    &.gems {
+      color: $green-10;
+    }
+
+    &.gold {
+      color: $yellow-10;
+    }
+
+    &.hourglasses {
+      color: $hourglass-color;
     }
   }
 </style>
